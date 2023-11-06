@@ -76,6 +76,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/george.williams23/Documents/Computer Science/KashyykHotel/BookingTable/main.c">
+			<Option target="checkOutTesting"/>
+		</Unit>
 		<Unit filename="C:/Users/george.williams23/Documents/Computer Science/KashyykHotel/checkOutTesting/main.c">
 			<Option target="checkOutTesting"/>
 		</Unit>

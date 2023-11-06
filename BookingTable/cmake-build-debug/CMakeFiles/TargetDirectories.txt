@@ -1,3 +1,0 @@
-C:/KashyykHotel/BookingTable/cmake-build-debug/CMakeFiles/BookingTable.dir
-C:/KashyykHotel/BookingTable/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/KashyykHotel/BookingTable/cmake-build-debug/CMakeFiles/rebuild_cache.dir

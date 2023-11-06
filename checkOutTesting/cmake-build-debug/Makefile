@@ -128,6 +128,30 @@ checkOutTesting/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\checkOutTesting.dir\build.make CMakeFiles/checkOutTesting.dir/build
 .PHONY : checkOutTesting/fast
 
+C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.obj: C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.c.obj
+.PHONY : C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.obj
+
+# target to build an object file
+C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\checkOutTesting.dir\build.make CMakeFiles/checkOutTesting.dir/C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.c.obj
+.PHONY : C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.c.obj
+
+C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.i: C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.c.i
+.PHONY : C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.i
+
+# target to preprocess a source file
+C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\checkOutTesting.dir\build.make CMakeFiles/checkOutTesting.dir/C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.c.i
+.PHONY : C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.c.i
+
+C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.s: C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.c.s
+.PHONY : C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.s
+
+# target to generate assembly for a file
+C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\checkOutTesting.dir\build.make CMakeFiles/checkOutTesting.dir/C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.c.s
+.PHONY : C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... checkOutTesting
+	@echo ... C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.obj
+	@echo ... C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.i
+	@echo ... C_/Users/george.williams23/Documents/Computer_Science/KashyykHotel/BookingTable/main.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

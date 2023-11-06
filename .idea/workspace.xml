@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -21,25 +21,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f71f78da-8ebe-4c14-afbe-fa5fed15c982" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/KashyykHotel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/KashyykHotel.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/.cmake/api/v1/reply/cache-v2-f87b628b0711a37505ae.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-396f34dcac2f5586b5ce.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-4123c3f9d2ee27b0dca4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/.cmake/api/v1/reply/index-2023-11-03T09-46-40-0091.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-967b6eb3471c27c6e547.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-8058cc2ace1f84a963ec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/.cmake/api/v1/reply/index-2023-11-06T14-30-35-0095.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/.cmake/api/v1/reply/target-checkOutTesting-Debug-e89919f50d4c10e6c616.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/compiler_depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/compiler_depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/objects1" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/objects1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/checkOutTesting.exe" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/checkOutTesting.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkOutTesting/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/checkOutTesting.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/checkOutTesting.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/checkOutTesting.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +70,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/george.williams23/Documents/Computer Science/KashyykHotel/checkOutTesting/CMakeLists.txt",
+    "last_opened_file_path": "C:/Users/george.williams23/Documents/Computer Science/KashyykHotel/BookingTable",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,11 +79,6 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="checkOutTesting" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="checkOutTesting" TARGET_NAME="checkOutTesting" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="checkOutTesting" RUN_TARGET_NAME="checkOutTesting">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -95,7 +94,8 @@
       <option name="presentableId" value="Default" />
       <updated>1699004752947</updated>
       <workItem from="1699004753406" duration="43000" />
-      <workItem from="1699280309053" duration="1997000" />
+      <workItem from="1699280309053" duration="2122000" />
+      <workItem from="1699282463369" duration="15000" />
     </task>
     <servers />
   </component>
