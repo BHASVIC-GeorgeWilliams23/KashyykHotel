@@ -1,12 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="checkOutTesting" targetName="checkOutTesting" />
+    </generated>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f71f78da-8ebe-4c14-afbe-fa5fed15c982" name="Changes" comment="" />
+    <list default="true" id="f71f78da-8ebe-4c14-afbe-fa5fed15c982" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/KashyykHotel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/KashyykHotel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/.cmake/api/v1/reply/cache-v2-f87b628b0711a37505ae.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-396f34dcac2f5586b5ce.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-4123c3f9d2ee27b0dca4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/.cmake/api/v1/reply/index-2023-11-03T09-46-40-0091.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/checkOutTesting.exe" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/checkOutTesting.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkOutTesting/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/checkOutTesting/main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +49,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -31,10 +66,26 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/george.williams23/Documents/KashyykHotel",
+    "last_opened_file_path": "C:/Users/george.williams23/Documents/Computer Science/KashyykHotel/checkOutTesting/CMakeLists.txt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkOutTesting" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="checkOutTesting" TARGET_NAME="checkOutTesting" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="checkOutTesting" RUN_TARGET_NAME="checkOutTesting">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,10 +95,17 @@
       <option name="presentableId" value="Default" />
       <updated>1699004752947</updated>
       <workItem from="1699004753406" duration="43000" />
+      <workItem from="1699280309053" duration="1997000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
   </component>
 </project>
