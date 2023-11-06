@@ -1,3 +1,0 @@
-C:/Users/george.williams23/Documents/Computer Science/KashyykHotel/checkOutTesting/cmake-build-debug/CMakeFiles/checkOutTesting.dir
-C:/Users/george.williams23/Documents/Computer Science/KashyykHotel/checkOutTesting/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/george.williams23/Documents/Computer Science/KashyykHotel/checkOutTesting/cmake-build-debug/CMakeFiles/rebuild_cache.dir
