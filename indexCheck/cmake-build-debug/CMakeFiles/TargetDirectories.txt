@@ -1,0 +1,3 @@
+S:/C/KashyykHotel/indexCheck/cmake-build-debug/CMakeFiles/indexCheck.dir
+S:/C/KashyykHotel/indexCheck/cmake-build-debug/CMakeFiles/edit_cache.dir
+S:/C/KashyykHotel/indexCheck/cmake-build-debug/CMakeFiles/rebuild_cache.dir
