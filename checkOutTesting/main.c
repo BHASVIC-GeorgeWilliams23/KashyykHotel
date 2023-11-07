@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <process.h>
 #include <stdlib.h>
+#include <string.h>
 //int available[6] = [1,1,1,1,1,1];
 char stay[50][6];
 char names[6];
@@ -13,8 +14,23 @@ int newspaper[6];
 int bookingID[5];
 int i;
 int bookings[6][50];
-char iD1[] = "a123";
-char iD[];
+
+int bookingCheck(const char userBookingID[]) {
+    char bookingID[6][100]; // Assuming you have an array of booking IDs
+// Placeholders
+    strcpy(bookingID[0], "ABC123");
+    strcpy(bookingID[1], "XYZ789");
+    int i;
+    for (i = 0; i < 6; i++) {
+        if (strcmp(userBookingID, bookingID[i]) == 0) {
+            printf("Your booking ID is valid\n");
+            return 1; // Return 1 to indicate a valid ID
+        }
+    }
+    printf("Your booking ID is not valid\n");
+    return 0; // Return 0 to indicate an invalid ID
+}
+
 void checkIn(){
     printf("Checking in.\n");
 }
@@ -22,20 +38,15 @@ void bookTable(){
         printf("Booking table.\n");
 }
 void checkOut() {
-    printf("Please enter your booking iD, or enter M to return to main menu. \n");
-    scanf("%s",&iD);
-    bookingID[2] = iD;
-    for(i=0;i<6;i++){
-        if(iD==bookingID[i]) {
-            int found = 1;
-            int index = i;
-        }
-        else{
-            printf("Room not available or booking ID not found.\n");
-            i=7;
-        }
+    char userBookingID[100];
+    printf("Enter your booking ID: \n");
+    scanf("%s", userBookingID);
+    bookingCheck(userBookingID);
+    if(bookingCheck(userBookingID)){
+
     }
-}
+    }
+
 
 
 void mainMenu() {
