@@ -434,8 +434,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/BookingTable/cmake-build-debug",
-		"source" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/BookingTable"
+		"build" : "C:/KashyykHotel/BookingTable/cmake-build-debug",
+		"source" : "C:/KashyykHotel/BookingTable"
 	},
 	"version" : 
 	{
