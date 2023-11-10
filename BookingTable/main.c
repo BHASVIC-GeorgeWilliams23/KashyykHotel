@@ -16,11 +16,12 @@ int bookingCheck(const char userBookingID[]) {
     return 0; // return 0 to indicate an invalid ID
 }
 int main() {
-    int avaliableTables[2][1];
+    int avaliableTables[3][2] = {4,4,4,4,4,4};
     char userBookingID[100];
     int BoardCheck = 0;
     int NumPeople = 0;
     int time = 0;
+    int Chosen = 0;
     printf("Enter your booking ID: ");
     scanf("%s", &userBookingID);
     if (bookingCheck(userBookingID)) {
@@ -30,28 +31,42 @@ int main() {
             printf("valid board type\n");
             printf("how many people are you booking for?\n");
             scanf("%d", &NumPeople);
-            printf("what would you like to book 7 or 9?\n");
-            scanf("%d", &time);
-            if (time == 7) {
-                int x;
-                for (x = 0; x < 3; x++) {
-                    if ((avaliableTables[x,0] - NumPeople) >= 0) {
-                        printf("%d,0 is avaliable at 7\n", x);
-                    }
-                }
-            } else if(time == 9){
-                int x;
-                for (x = 0; x < 3; x++) {
-                    if ((avaliableTables[x,1] - NumPeople) >= 0) {
-                        printf("%d,0 is avaliable at 9\n", x);
-                    }
-                }
-            }else{
-                printf("invalid board type\n");
+            if (NumPeople >=5){
+                printf("Tables can only hold 4 people.");  //stops values over 4 going through
             }
-        } else {
-            printf("invalid board type\n");
-        }
-        return 0;
+            else{
+                printf("what would you like to book 7 or 9?\n"); //gets value to define which row to check
+                scanf("%d", &time);
+                if (time == 7) {
+                    int x;
+                    for (x = 0; x < 3; x++) {
+                        int TableFull = (avaliableTables[x][0] - NumPeople);  //checks which tables are avaliable for amount of people
+                        if (TableFull >= 0) {
+                            printf("%d,0 is avaliable at 7\n", x);
+                        }
+                    }
+                    printf("Please select a table to book");
+                    scanf("%d",Chosen);
+                    avaliableTables[Chosen][0] = NumPeople;     //doesnt work?
+                } else if(time == 9){
+                    int x;
+                    for (x = 0; x < 3; x++) {
+                        int TableFull = (avaliableTables[x][1] - NumPeople);
+                        if (TableFull >= 0) {
+                            printf("%d,1 is avaliable at 9\n", x);
+                        }
+                    }
+                    printf("Please select a table to book");
+                    scanf("%d",Chosen);
+                    avaliableTables[Chosen][1] = NumPeople;
+                }else{
+                    printf("invalid value\n");
+                }
+            }
+    } else{
+        printf("invalid board type\n");
+    }
+    return 0;
     }
 }
+int main();
