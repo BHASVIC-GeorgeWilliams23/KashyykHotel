@@ -3,79 +3,14 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <time.h>
-int available[6] = {1,1,1,1,1,1};
+
 int stayLength;
-char names[6];
-char DOB[6];
-int numGuests[6];
-int guests[6];
-char boardType[6];
-int newspaper[6];
-char bookingID[100];
+int guests;
+int newspaper;
 int i;
-int bookings[6][50];
-char name[] = "";
 char surname;
 int boardChoice;
 int roomChoice;
-
-
-int guestCheck(int adults,int kids)
-{
-    int total;
-    total = (adults + kids);
-    if (total < 4){
-        printf("max number of guests is 4.");
-        return 0;
-    }
-    if (total < 1){
-        printf("minimum number of guests is 1");
-        return 0;
-    }
-    else{
-        printf("you have entered %d guests",&total);
-        return 1;
-    }
-
-}
-
-int checkIN()
-{
-    char surname[] = "";
-    printf("Enter surname");
-    scanf("c",&surname);
-    fflush(stdin)
-    int day,month,year;
-    printf("enter DOB (day month year)");
-    scanf("%d%d%d", &day,&month,&year);
-    int kids1,adults1;
-    printf("Enter number of children (u16) that will be staying");
-    scanf("%d", &kids1);
-    printf("Enter number of adults (16+) that will be staying");
-    scanf("%d", &adults1);
-    int valid;
-    valid = guestCheck(adults1, kids1);
-    if (valid == 1){
-        printf("Valid number of guests");
-        if(valid != 1)
-        {
-            printf("invalid");
-        }
-        int newspaper;
-        printf("Would you like a daily newspaper?");
-        scanf("%d",&newspaper);
-        switch(newspaper)
-        {
-            case 1: printf("you have chose the daily newspaper");
-
-            case 2: printf("you do not want the daily newspaper");
-        }
-        printf("How long do you plan to stay for?");
-        scanf("%d",&stayLength);
-
-    }
-}
-
 
 char bookingIdGen()
 {
@@ -91,6 +26,73 @@ char bookingIdGen()
 
     return 0;
 }
+
+int guestCheck(int adults,int kids)
+{
+    int guests = (adults + kids);
+    if (guests > 4){
+        printf("\nmax number of guests is 4.");
+        return 0;
+    }
+    if (guests < 1){
+        printf("\nminimum number of guests is 1");
+        return 0;
+    }
+    else{
+        printf("\nyou have entered %d guests",guests);
+        return 1;
+    }
+
+}
+
+int checkIN()
+{
+    char surname[] = "";
+    printf("Enter surname:");
+    scanf("c",&surname);
+    fflush(stdin);
+    int day,month,year;
+    printf("enter DOB (day month year):");
+    scanf("%d%d%d", &day,&month,&year);
+    fflush(stdin);
+    int kids1,adults1;
+    printf("\nEnter number of children (u16) that will be staying:");
+    scanf("%d", &kids1);
+    fflush(stdin);
+    printf("\nEnter number of adults (16+) that will be staying:");
+    scanf("%d", &adults1);
+    fflush(stdin);
+    int valid;
+    valid = guestCheck(adults1, kids1);
+    if (valid == 1){
+        printf("\nValid number of guests\n");
+    }
+    if (valid != 1){
+            printf("\ninvalid");
+    }
+    int newspaper;
+    printf("\nWould you like a daily newspaper? \n1 for yes\n2 for no\n:");
+    scanf("%d",&newspaper);
+    switch(newspaper)
+    {
+        case 1: printf("you have chose the daily newspaper\n");
+                newspaper = 1;
+                fflush(stdin);
+
+        case 2: printf("you do not want the daily newspaper\n");
+                newspaper = 2;
+                fflush(stdin);
+    }
+    printf("How many days do you plan to stay for?");
+    scanf("%d",&stayLength);
+    fflush(stdin);
+    bookingIdGen();
+    return 0;
+}
+
+
+
+
 
 
 void displayRoomRates() {
