@@ -15,8 +15,9 @@ int bookingCheck(const char userBookingID[]) {
     printf("Your booking ID is not valid\n");
     return 0; // return 0 to indicate an invalid ID
 }
-int main() {
-    int avaliableTables[3][2] = {4,4,4,4,4,4};
+void bookingtable() {
+    // availableTables[time][table]
+    int avaliableTables[2][3] = {4,4,4,4,4,4};
     char userBookingID[100];
     int BoardCheck = 0;
     int NumPeople = 0;
@@ -46,8 +47,8 @@ int main() {
                         }
                     }
                     printf("Please select a table to book");
-                    scanf("%d",Chosen);
-                    avaliableTables[0][Chosen] = NumPeople;     //doesnt work?
+                    scanf("%d",&Chosen);
+                    avaliableTables[0][Chosen] = (avaliableTables[0][Chosen] - NumPeople);     //doesnt work?
                 } else if(time == 9){
                     int x;
                     for (x = 0; x < 3; x++) {
@@ -56,9 +57,9 @@ int main() {
                             printf("%d,1 is avaliable at 9\n", x);
                         }
                     }
-                    printf("Please select a table to book");
-                    scanf("%d",Chosen);
-                    avaliableTables[1][Chosen] = NumPeople;
+                    printf("Please select a table to book\n");
+                    scanf("%d",&Chosen);
+                    avaliableTables[1][Chosen] = (avaliableTables[1][Chosen] - NumPeople);
                 }else{
                     printf("invalid value\n");
                 }
@@ -66,8 +67,10 @@ int main() {
     } else{
         printf("invalid board type\n");
     }
-    return 0;
-    printf("%d",avaliableTables);
     }
 }
-int main();
+int main(){
+    setbuf(stdout, 0);
+    bookingtable();
+}
+

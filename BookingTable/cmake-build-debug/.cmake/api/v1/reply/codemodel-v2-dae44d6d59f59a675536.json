@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "BookingTable::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-BookingTable-Debug-2e77ac4185d16b29388a.json",
+					"jsonFile" : "target-BookingTable-Debug-fcae1fc65dbe6025aa74.json",
 					"name" : "BookingTable",
 					"projectIndex" : 0
 				}
@@ -55,6 +55,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 4
 	}
 }
