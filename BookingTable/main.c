@@ -25,9 +25,9 @@ int main() {
     printf("Enter your booking ID: ");
     scanf("%s", &userBookingID);
     if (bookingCheck(userBookingID)) {
-        printf("if your board type is full or half please input 1, if it is BnB please input 2:");
+        printf("if your board type is full or half please input 1, if it is BnB please input 2:"); // why the same for half and full?
         scanf("%d", &BoardCheck);
-        if (BoardCheck == 1) {
+        if (BoardCheck == 1) { // what about if they enter 2??
             printf("valid board type\n");
             printf("how many people are you booking for?\n");
             scanf("%d", &NumPeople);
@@ -35,7 +35,7 @@ int main() {
                 printf("Tables can only hold 4 people.");  //stops values over 4 going through
             }
             else{
-                printf("what would you like to book 7 or 9?\n"); //gets value to define which row to check
+                printf("what would you like to book 7 or 9?\n"); //gets value to define which row to check // 7 or 9 what?
                 scanf("%d", &time);
                 if (time == 7) {
                     int x;
