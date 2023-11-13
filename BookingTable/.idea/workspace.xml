@@ -20,7 +20,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ca6cb7c-7cf9-43fe-b26b-79b411adab64" name="Changes" comment="" />
+    <list default="true" id="3ca6cb7c-7cf9-43fe-b26b-79b411adab64" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,12 +67,7 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="BookingTable" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BookingTable" TARGET_NAME="BookingTable" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BookingTable" RUN_TARGET_NAME="BookingTable">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="BookingTable" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BookingTable" TARGET_NAME="BookingTable" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BookingTable" RUN_TARGET_NAME="BookingTable">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -86,6 +85,8 @@
       <workItem from="1699358065281" duration="737000" />
       <workItem from="1699536039216" duration="5581000" />
       <workItem from="1699623933875" duration="7904000" />
+      <workItem from="1699885289474" duration="24000" />
+      <workItem from="1699885314503" duration="156000" />
     </task>
     <servers />
   </component>

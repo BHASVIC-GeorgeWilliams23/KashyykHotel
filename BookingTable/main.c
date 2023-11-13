@@ -35,7 +35,7 @@ int main() {
                 printf("Tables can only hold 4 people.");  //stops values over 4 going through
             }
             else{
-                printf("what would you like to book 7 or 9?\n"); //gets value to define which row to check // 7 or 9 what?
+                printf("what would you like to book 7pm or 9pm?\n"); //gets value to define which row to check // 7 or 9 what?
                 scanf("%d", &time);
                 if (time == 7) {
                     int x;
@@ -47,7 +47,7 @@ int main() {
                     }
                     printf("Please select a table to book");
                     scanf("%d",Chosen);
-                    avaliableTables[Chosen][0] = NumPeople;     //doesnt work?
+                    avaliableTables[0][Chosen] = NumPeople;     //doesnt work?
                 } else if(time == 9){
                     int x;
                     for (x = 0; x < 3; x++) {
@@ -58,7 +58,7 @@ int main() {
                     }
                     printf("Please select a table to book");
                     scanf("%d",Chosen);
-                    avaliableTables[Chosen][1] = NumPeople;
+                    avaliableTables[1][Chosen] = NumPeople;
                 }else{
                     printf("invalid value\n");
                 }
@@ -67,6 +67,7 @@ int main() {
         printf("invalid board type\n");
     }
     return 0;
+    printf("%d",avaliableTables);
     }
 }
 int main();
