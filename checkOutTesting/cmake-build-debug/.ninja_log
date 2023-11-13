@@ -1,3 +1,21 @@
 # ninja log v5
-0	113	7207088570932003	CMakeFiles/checkOutTesting.dir/main.c.obj	797a2b038d49dd7
-115	365	7207088573394617	checkOutTesting.exe	bef7c60a8a36a455
+1	369	7215918115715018	CMakeFiles/checkOutTesting.dir/main.c.obj	f52b03fbd13a14a7
+372	665	7215918118646335	checkOutTesting.exe	1b17352e2ac726f
+5	245	7215918627342138	CMakeFiles/checkOutTesting.dir/main.c.obj	f52b03fbd13a14a7
+246	526	7215918630054538	checkOutTesting.exe	1b17352e2ac726f
+4	266	7215919791397958	CMakeFiles/checkOutTesting.dir/main.c.obj	f52b03fbd13a14a7
+267	578	7215919794418795	checkOutTesting.exe	1b17352e2ac726f
+4	205	7215920216262411	CMakeFiles/checkOutTesting.dir/main.c.obj	f52b03fbd13a14a7
+207	463	7215920218818578	checkOutTesting.exe	1b17352e2ac726f
+5	279	7215921129143319	CMakeFiles/checkOutTesting.dir/main.c.obj	f52b03fbd13a14a7
+282	588	7215921132175701	checkOutTesting.exe	1b17352e2ac726f
+7	265	7215922438995654	CMakeFiles/checkOutTesting.dir/main.c.obj	f52b03fbd13a14a7
+266	576	7215922442067433	checkOutTesting.exe	1b17352e2ac726f
+4	420	7215925440122235	CMakeFiles/checkOutTesting.dir/main.c.obj	f52b03fbd13a14a7
+421	748	7215925443338080	checkOutTesting.exe	1b17352e2ac726f
+4	227	7215925822508452	CMakeFiles/checkOutTesting.dir/main.c.obj	f52b03fbd13a14a7
+230	510	7215925825268396	checkOutTesting.exe	1b17352e2ac726f
+5	292	7215928278868540	CMakeFiles/checkOutTesting.dir/main.c.obj	f52b03fbd13a14a7
+293	570	7215928281640525	checkOutTesting.exe	1b17352e2ac726f
+5	335	7215930444921791	CMakeFiles/checkOutTesting.dir/main.c.obj	f52b03fbd13a14a7
+336	670	7215930448369127	checkOutTesting.exe	1b17352e2ac726f

@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/KashyykHotel/BookingTable/cmake-build-debug"
+			"value" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/BookingTable/cmake-build-debug"
 		},
 		{
 			"name" : "BookingTable_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/KashyykHotel/BookingTable"
+			"value" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/BookingTable"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/KashyykHotel/BookingTable/cmake-build-debug"
+			"value" : "c:/Users/gwill/Documents/GitHub/KashyykHotel/BookingTable/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -467,7 +467,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/KashyykHotel/BookingTable/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/BookingTable/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/KashyykHotel/BookingTable"
+			"value" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/BookingTable"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",

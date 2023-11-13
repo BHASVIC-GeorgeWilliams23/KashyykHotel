@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "BookingTable.exe"
+			"path" : "checkOutTesting.exe"
 		},
 		{
-			"path" : "BookingTable.pdb"
+			"path" : "checkOutTesting.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -38,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu99 -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
 				}
 			],
 			"language" : "C",
@@ -48,7 +48,7 @@
 				[
 					1
 				],
-				"standard" : "99"
+				"standard" : "11"
 			},
 			"sourceIndexes" : 
 			[
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "BookingTable::@6890427a1f51a3e7e1df",
+	"id" : "checkOutTesting::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "BookingTable",
-	"nameOnDisk" : "BookingTable.exe",
+	"name" : "checkOutTesting",
+	"nameOnDisk" : "checkOutTesting.exe",
 	"paths" : 
 	{
 		"build" : ".",

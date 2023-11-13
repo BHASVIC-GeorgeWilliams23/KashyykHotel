@@ -63,11 +63,11 @@ int main() {
                     printf("invalid value\n");
                 }
             }
-    } else{
-        printf("invalid board type\n");
-    }
-    return 0;
-    printf("%d",avaliableTables);
+        } else{
+            printf("invalid board type\n");
+        }
+        return 0;
+        printf("%d",avaliableTables);
     }
 }
 int main();
