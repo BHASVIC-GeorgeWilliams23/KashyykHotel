@@ -41,7 +41,7 @@ void bookingtable() {
                 if (time == 7) {
                     int x;
                     for (x = 0; x < 3; x++) {
-                        int TableFull = (avaliableTables[x][0] - NumPeople);  //checks which tables are avaliable for amount of people
+                        int TableFull = (avaliableTables[0][x] - NumPeople);  //checks which tables are avaliable for amount of people
                         if (TableFull >= 0) {
                             printf("%d,0 is avaliable at 7\n", x);
                         }
@@ -52,7 +52,7 @@ void bookingtable() {
                 } else if(time == 9){
                     int x;
                     for (x = 0; x < 3; x++) {
-                        int TableFull = (avaliableTables[x][1] - NumPeople);
+                        int TableFull = (avaliableTables[1][x] - NumPeople);
                         if (TableFull >= 0) {
                             printf("%d,1 is avaliable at 9\n", x);
                         }
