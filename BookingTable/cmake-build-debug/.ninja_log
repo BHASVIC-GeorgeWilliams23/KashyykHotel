@@ -1,3 +1,24 @@
 # ninja log v5
+<<<<<<< HEAD
 0	239	7215889504919652	CMakeFiles/BookingTable.dir/main.c.obj	35f3b71bf7fd8ef
 242	520	7215889507474121	BookingTable.exe	368147b9a18a9088
+=======
+0	109	7215908048523701	CMakeFiles/BookingTable.dir/main.c.obj	80865fcae3e595c3
+2	80	7215909013934025	CMakeFiles/BookingTable.dir/main.c.obj	80865fcae3e595c3
+1	80	7215909643609009	CMakeFiles/BookingTable.dir/main.c.obj	80865fcae3e595c3
+80	198	7215909644764749	BookingTable.exe	e38b1c5c1920f58d
+1	89	7215912872572020	CMakeFiles/BookingTable.dir/main.c.obj	80865fcae3e595c3
+89	220	7215912873854318	BookingTable.exe	e38b1c5c1920f58d
+1	81	7215915156450439	CMakeFiles/BookingTable.dir/main.c.obj	80865fcae3e595c3
+82	205	7215915157658085	BookingTable.exe	e38b1c5c1920f58d
+2	84	7215917227263045	CMakeFiles/BookingTable.dir/main.c.obj	80865fcae3e595c3
+88	207	7215917228460996	BookingTable.exe	e38b1c5c1920f58d
+2	91	7215921857624288	CMakeFiles/BookingTable.dir/main.c.obj	80865fcae3e595c3
+91	226	7215921858983177	BookingTable.exe	e38b1c5c1920f58d
+1	81	7215922502904983	CMakeFiles/BookingTable.dir/main.c.obj	80865fcae3e595c3
+82	203	7215922504103724	BookingTable.exe	e38b1c5c1920f58d
+1	83	7215924079142581	CMakeFiles/BookingTable.dir/main.c.obj	80865fcae3e595c3
+83	203	7215924080330714	BookingTable.exe	e38b1c5c1920f58d
+1	84	7215925630975458	CMakeFiles/BookingTable.dir/main.c.obj	80865fcae3e595c3
+85	207	7215925632174102	BookingTable.exe	e38b1c5c1920f58d
+>>>>>>> fdd1a0db0f540c5ebec760867387b8531b864e47

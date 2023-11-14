@@ -6,6 +6,12 @@
   <component name="CMakePresetLoader"><![CDATA[{
   "useNewFormat": true
 }]]></component>
+<<<<<<< HEAD
+=======
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+>>>>>>> fdd1a0db0f540c5ebec760867387b8531b864e47
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="BookingTable" targetName="BookingTable" />
@@ -17,7 +23,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="05706735-3ec2-4b28-b732-f21247c19db6" name="Changes" comment="" />
+=======
+    <list default="true" id="bf003b07-31dd-4b2f-91ec-c7050ffb91ca" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BookingTable.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BookingTable.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BookingTable.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BookingTable.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+    </list>
+>>>>>>> fdd1a0db0f540c5ebec760867387b8531b864e47
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,17 +44,52 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+<<<<<<< HEAD
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="1.5" />
+  </component>
+  <component name="ProjectId" id="2Y7rk5kKlsvlVWPrhxoX8U4wUi2" />
+>>>>>>> fdd1a0db0f540c5ebec760867387b8531b864e47
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="RunManager">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+>>>>>>> fdd1a0db0f540c5ebec760867387b8531b864e47
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="BookingTable" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BookingTable" TARGET_NAME="BookingTable" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BookingTable" RUN_TARGET_NAME="BookingTable">
+=======
+    <configuration name="BookingTable" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BookingTable" TARGET_NAME="BookingTable" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BookingTable" RUN_TARGET_NAME="BookingTable">
+>>>>>>> fdd1a0db0f540c5ebec760867387b8531b864e47
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -46,12 +98,21 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="05706735-3ec2-4b28-b732-f21247c19db6" name="Changes" comment="" />
       <created>1699885734374</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699885734374</updated>
       <workItem from="1699885735862" duration="144000" />
+=======
+      <changelist id="bf003b07-31dd-4b2f-91ec-c7050ffb91ca" name="Changes" comment="" />
+      <created>1699887598821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699887598821</updated>
+      <workItem from="1699887600053" duration="1764000" />
+>>>>>>> fdd1a0db0f540c5ebec760867387b8531b864e47
     </task>
     <servers />
   </component>
