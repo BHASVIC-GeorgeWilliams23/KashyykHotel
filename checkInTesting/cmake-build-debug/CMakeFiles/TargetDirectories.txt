@@ -1,0 +1,3 @@
+C:/Users/gwill/Documents/GitHub/KashyykHotel/checkInTesting/cmake-build-debug/CMakeFiles/checkInTesting.dir
+C:/Users/gwill/Documents/GitHub/KashyykHotel/checkInTesting/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/gwill/Documents/GitHub/KashyykHotel/checkInTesting/cmake-build-debug/CMakeFiles/rebuild_cache.dir

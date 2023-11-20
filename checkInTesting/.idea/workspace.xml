@@ -6,11 +6,10 @@
   <component name="CMakePresetLoader"><![CDATA[{
   "useNewFormat": true
 }]]></component>
-  <component name="CMakeReloadState">
-    <option name="reloaded" value="true" />
-  </component>
   <component name="CMakeRunConfigurationManager">
-    <generated />
+    <generated>
+      <config projectName="checkInTesting" targetName="checkInTesting" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -18,7 +17,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a6e3264-d332-4271-9db2-511f11a4e39a" name="Changes" comment="" />
+    <list default="true" id="2702e542-2491-4dd5-9121-23c424903b18" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,15 +27,6 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="ProjectApplicationVersion">
-    <option name="ide" value="CLion" />
-    <option name="majorVersion" value="2023" />
-    <option name="minorVersion" value="2.2" />
-  </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
-  <component name="ProjectId" id="2Y7nVDpvFeU8PeEGIb5vpYJ6JxB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,7 +39,6 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/gwill/Documents/GitHub/KashyykHotel/checkOutTesting",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,16 +52,21 @@
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
+    <configuration name="checkInTesting" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="checkInTesting" TARGET_NAME="checkInTesting" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="checkInTesting" RUN_TARGET_NAME="checkInTesting">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5a6e3264-d332-4271-9db2-511f11a4e39a" name="Changes" comment="" />
-      <created>1699885506647</created>
+      <changelist id="2702e542-2491-4dd5-9121-23c424903b18" name="Changes" comment="" />
+      <created>1700491312559</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1699885506647</updated>
-      <workItem from="1699885508985" duration="504000" />
+      <updated>1700491312559</updated>
+      <workItem from="1700491314348" duration="631000" />
     </task>
     <servers />
   </component>

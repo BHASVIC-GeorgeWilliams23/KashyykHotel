@@ -1,3 +1,0 @@
-C:/Users/joehu/OneDrive/Documents/GitHub/KashyykHotel/checkin/cmake-build-debug/CMakeFiles/checkin.dir
-C:/Users/joehu/OneDrive/Documents/GitHub/KashyykHotel/checkin/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/joehu/OneDrive/Documents/GitHub/KashyykHotel/checkin/cmake-build-debug/CMakeFiles/rebuild_cache.dir
