@@ -8,11 +8,11 @@ int stayLength;
 int guests;
 int newspaper;
 int i;
-char surname;
+char surname[35];
 int boardChoice;
 int roomChoice;
 
-char bookingIdGen()
+void bookingIdGen()
 {
     srand(time(NULL));
 
@@ -47,9 +47,8 @@ int guestCheck(int adults,int kids)
 
 int checkIN()
 {
-    char surname[] = "";
     printf("Enter surname:");
-    scanf("c",&surname);
+    scanf("%34s",&surname);
     fflush(stdin);
     int day,month,year;
     printf("enter DOB (day month year):");
