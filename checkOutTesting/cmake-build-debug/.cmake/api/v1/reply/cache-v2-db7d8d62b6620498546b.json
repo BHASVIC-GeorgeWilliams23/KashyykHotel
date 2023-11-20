@@ -2,45 +2,6 @@
 	"entries" : 
 	[
 		{
-<<<<<<<< HEAD:BookingTable/cmake-build-debug/.cmake/api/v1/reply/cache-v2-17cdd6d1ad3fc12c7c68.json
-			"name" : "BookingTable_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/BookingTable/cmake-build-debug"
-		},
-		{
-			"name" : "BookingTable_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "BookingTable_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/BookingTable"
-		},
-		{
-========
->>>>>>>> fdd1a0db0f540c5ebec760867387b8531b864e47:checkin/cmake-build-debug/.cmake/api/v1/reply/cache-v2-754285c924279eb62566.json
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -94,11 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-<<<<<<<< HEAD:BookingTable/cmake-build-debug/.cmake/api/v1/reply/cache-v2-17cdd6d1ad3fc12c7c68.json
-			"value" : "c:/Users/gwill/Documents/GitHub/KashyykHotel/BookingTable/cmake-build-debug"
-========
-			"value" : "c:/Users/joehu/OneDrive/Documents/GitHub/KashyykHotel/checkin/cmake-build-debug"
->>>>>>>> fdd1a0db0f540c5ebec760867387b8531b864e47:checkin/cmake-build-debug/.cmake/api/v1/reply/cache-v2-754285c924279eb62566.json
+			"value" : "c:/Users/gwill/Documents/GitHub/KashyykHotel/checkOutTesting/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -474,11 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-<<<<<<<< HEAD:BookingTable/cmake-build-debug/.cmake/api/v1/reply/cache-v2-17cdd6d1ad3fc12c7c68.json
-			"value" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/BookingTable/cmake-build-debug/CMakeFiles/pkgRedirects"
-========
-			"value" : "C:/Users/joehu/OneDrive/Documents/GitHub/KashyykHotel/checkin/cmake-build-debug/CMakeFiles/pkgRedirects"
->>>>>>>> fdd1a0db0f540c5ebec760867387b8531b864e47:checkin/cmake-build-debug/.cmake/api/v1/reply/cache-v2-754285c924279eb62566.json
+			"value" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/checkOutTesting/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -550,11 +503,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-<<<<<<<< HEAD:BookingTable/cmake-build-debug/.cmake/api/v1/reply/cache-v2-17cdd6d1ad3fc12c7c68.json
-			"value" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/BookingTable"
-========
-			"value" : "C:/Users/joehu/OneDrive/Documents/GitHub/KashyykHotel/checkin"
->>>>>>>> fdd1a0db0f540c5ebec760867387b8531b864e47:checkin/cmake-build-debug/.cmake/api/v1/reply/cache-v2-754285c924279eb62566.json
+			"value" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/checkOutTesting"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -566,7 +515,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/checkin"
+			"value" : "C:/Program Files (x86)/checkOutTesting"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -782,7 +731,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "checkin"
+			"value" : "checkOutTesting"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1173,7 +1122,7 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "checkin_BINARY_DIR",
+			"name" : "checkOutTesting_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1182,10 +1131,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/joehu/OneDrive/Documents/GitHub/KashyykHotel/checkin/cmake-build-debug"
+			"value" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/checkOutTesting/cmake-build-debug"
 		},
 		{
-			"name" : "checkin_IS_TOP_LEVEL",
+			"name" : "checkOutTesting_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1197,7 +1146,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "checkin_SOURCE_DIR",
+			"name" : "checkOutTesting_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1206,7 +1155,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/joehu/OneDrive/Documents/GitHub/KashyykHotel/checkin"
+			"value" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/checkOutTesting"
 		}
 	],
 	"kind" : "cache",

@@ -1,0 +1,64 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BookingTable",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BookingTable::@6890427a1f51a3e7e1df",
+<<<<<<<< HEAD:BookingTable/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-756591b3dee98abc64fe.json
+					"jsonFile" : "target-BookingTable-Debug-611ab1aae51544cf0cbe.json",
+========
+					"jsonFile" : "target-BookingTable-Debug-fcae1fc65dbe6025aa74.json",
+>>>>>>>> fdd1a0db0f540c5ebec760867387b8531b864e47:BookingTable/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-dae44d6d59f59a675536.json
+					"name" : "BookingTable",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/BookingTable/cmake-build-debug",
+		"source" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/BookingTable"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

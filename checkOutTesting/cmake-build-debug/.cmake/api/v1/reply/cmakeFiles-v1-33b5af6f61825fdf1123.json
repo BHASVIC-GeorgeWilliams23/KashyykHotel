@@ -434,13 +434,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-<<<<<<<< HEAD:BookingTable/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-d0e7d3c5a7e33d7c0bae.json
-		"build" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/BookingTable/cmake-build-debug",
-		"source" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/BookingTable"
-========
-		"build" : "C:/Users/joehu/OneDrive/Documents/GitHub/KashyykHotel/checkin/cmake-build-debug",
-		"source" : "C:/Users/joehu/OneDrive/Documents/GitHub/KashyykHotel/checkin"
->>>>>>>> fdd1a0db0f540c5ebec760867387b8531b864e47:checkin/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-7ddca2d0f36fd1a849b0.json
+		"build" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/checkOutTesting/cmake-build-debug",
+		"source" : "C:/Users/gwill/Documents/GitHub/KashyykHotel/checkOutTesting"
 	},
 	"version" : 
 	{

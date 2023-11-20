@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/joehu/OneDrive/Documents/GitHub/KashyykHotel/checkOutTesting
+# Install script for directory: C:/Users/gwill/Documents/GitHub/KashyykHotel/checkOutTesting
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/joehu/OneDrive/Documents/GitHub/KashyykHotel/checkOutTesting/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/gwill/Documents/GitHub/KashyykHotel/checkOutTesting/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
