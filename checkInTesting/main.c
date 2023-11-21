@@ -4,6 +4,21 @@
 #include <ctype.h>
 #include <time.h>
 
+// Function prototypes
+int bookingCheck(const char *userBookingID);
+int indexCheck(const char *userBookingID, const char bookingID[6][100], int arrLen);
+
+// Global arrays
+char stay[50][6];
+char names[6];
+char DOB[6];
+int numGuests[6];
+int kids[6];
+int adults[6];
+char boardType[6];
+char bookingID[6][100]; // Array of booking IDs
+int userAge= 70;
+int stayLength = 5;
 int stayLength;
 int guests;
 int newspaper;
@@ -12,6 +27,7 @@ char surname[35];
 int boardChoice;
 int roomChoice;
 
+////////BookingIDGen////////////////
 void bookingIdGen()
 {
     srand(time(NULL));
@@ -23,130 +39,39 @@ void bookingIdGen()
     snprintf(bookingid, sizeof(bookingid), "%s%d", surname, random_number);
 
     printf("Your Booking ID: %s\n", bookingid);
+}
+///////////////////////////////
 
-    return 0;
+void bookTable() {
+    printf("Booking table.\n");
 }
 
-int guestCheck(int adults,int kids)
-{
-    int guests = (adults + kids);
-    if (guests > 4){
-        printf("\nmax number of guests is 4.");
-        return 0;
-    }
-    if (guests < 1){
-        printf("\nminimum number of guests is 1");
-        return 0;
-    }
-    else{
-        printf("\nyou have entered %d guests",guests);
-        return 1;
-    }
+int indexCheck(const char *userBookingID, const char bookingID[6][100], int arrLen) {
+    int index = -1;
 
+    for (int i = 0; i < arrLen; i++) {
+        if (strcmp(bookingID[i], userBookingID) == 0) {
+            index = i;
+            break;
+        }
+    }
+    return index;
 }
-
-int checkIN()
-{
-    printf("Enter surname:");
-    scanf("%34s",&surname);
-    fflush(stdin);
-    int day,month,year;
-    printf("enter DOB (day month year):");
-    scanf("%d%d%d", &day,&month,&year);
-    fflush(stdin);
-    int kids1,adults1;
-    printf("\nEnter number of children (u16) that will be staying:");
-    scanf("%d", &kids1);
-    fflush(stdin);
-    printf("\nEnter number of adults (16+) that will be staying:");
-    scanf("%d", &adults1);
-    fflush(stdin);
-    int valid;
-    valid = guestCheck(adults1, kids1);
-    if (valid == 1){
-        printf("\nValid number of guests\n");
-    }
-    if (valid != 1){
-            printf("\ninvalid");
-    }
-    int newspaper;
-    printf("\nWould you like a daily newspaper? \n1 for yes\n2 for no\n:");
-    scanf("%d",&newspaper);
-    switch(newspaper)
-    {
-        case 1: printf("you have chose the daily newspaper\n");
-                newspaper = 1;
-                fflush(stdin);
-
-        case 2: printf("you do not want the daily newspaper\n");
-                newspaper = 2;
-                fflush(stdin);
-    }
-    printf("How many days do you plan to stay for?");
-    scanf("%d",&stayLength);
-    fflush(stdin);
-    bookingIdGen();
-    return 0;
-}
-
-
-
-
-
-
-void displayRoomRates() {
-    printf("Room rates per room, per day:\n");
-    printf("Room 1 & 2 = £100\n");
-    printf("Room 3 = £85\n");
-    printf("Room 4 & 5 = £75\n");
-    printf("Room 6 = £50\n");
-}
-
-// Function to display board rates
-void displayBoardRates() {
-    printf("Board rates per person, per day:\n");
-    printf("Full board = £20\n");
-    printf("Half board = £15\n");
-    printf("B&B = £5\n");
-}
-
-int Choice() {
-
-    printf("Available rooms:\n");
-    displayRoomRates();
-
-
-    printf("\nEnter the room number you would like to book (1-6): ");
-    scanf("%d", &roomChoice);
-
-
-    if (roomChoice < 1 || roomChoice > 6) {
-        printf("Invalid room choice. Please choose a room between 1 and 6.\n");
-        return 1;
-    }
-
-
-    printf("\nBoard rates:\n");
-    displayBoardRates();
-
-
-    printf("\nEnter the board type you would like (1-3):\n");
-    printf("1. Full board\n");
-    printf("2. Half board\n");
-    printf("3. B&B\n");
-    printf("Enter your choice: ");
-    scanf("%d", &boardChoice);
-
-
-    if (boardChoice < 1 || boardChoice > 3) {
-        printf("Invalid board choice. Please choose a board type between 1 and 3.\n");
-        return 1; // Exit the program with an error code
-    }
-
-
-    int roomRate;
-    switch (roomChoice) {
+float roomRate(const char *userBookingID) {
+    float roomCost = 0.0;
+    float boardCost = 0.0;
+    float newspaperCost = 0.0;
+    int roomRate = 0;
+    int index = indexCheck(userBookingID, bookingID, 6);
+    // ... (rest of your code here)
+    switch (index) {
+        case 0:
+            roomRate = 0;
+            printf("Room 0 does not exist.");
+            break;
         case 1:
+            roomRate = 100;
+            break;
         case 2:
             roomRate = 100;
             break;
@@ -154,44 +79,81 @@ int Choice() {
             roomRate = 85;
             break;
         case 4:
+            roomRate = 75;
+            break;
         case 5:
             roomRate = 75;
             break;
         case 6:
             roomRate = 50;
             break;
-        default:
-
-            return 1;
     }
 
-    int boardRate;
-    switch (boardChoice) {
-        case 1:
-            boardRate = 20;
-            break;
-        case 2:
-            boardRate = 15;
-            break;
-        case 3:
-            boardRate = 5;
-            break;
-        default:
-
-            return 1;
-    }
-
-
-    int totalCost = roomRate + boardRate;
-
-
-    printf("\nTotal cost for Room %d with %s: £%d\n", roomChoice, (boardChoice == 1) ? "Full board" : (boardChoice == 2) ? "Half board" : "B&B", totalCost);
-
-    return 0;
+    return roomRate;
 }
 
+int bookingCheck(const char *userBookingID) {
+    // Placeholders
+    strcpy(bookingID[1], "XYZ789");
+    strcpy(bookingID[2], "123DEF");
+    strcpy(bookingID[3], "456GHI");
+    strcpy(bookingID[4], "789JKL");
+    strcpy(bookingID[5], "MNO000");
 
-int main()
-{
-    checkIN();
+    for (int i = 0; i < 6; i++) {
+        if (strcmp(userBookingID, bookingID[i]) == 0) {
+            printf("Your booking ID is valid\n");
+            return 1; // Return 1 to indicate a valid ID
+        }
+    }
+
+    printf("Your booking ID is not valid\n");
+    return 0; // Return 0 to indicate an invalid ID
+}
+
+void checkOut() {
+    char userBookingID[100];
+    printf("Enter your booking ID: \n");
+    scanf("%s", userBookingID);
+
+    if (bookingCheck(userBookingID)) {
+        int index = indexCheck(userBookingID, bookingID, 6);
+        if (index != -1) {
+            // Perform actions for a valid booking ID
+            printf("Checking out for room %d.\n", index);
+            if(userAge<=65){
+                printf("Room rate is %f", stayLength*roomRate(userBookingID));
+            }
+            else{
+                printf("Room rate is %f", stayLength*0.9*roomRate(userBookingID));
+            }
+        }
+
+
+    }
+}
+
+void mainMenu() {
+    int choice;
+    printf("Welcome to the Kashyyk Hotel!\nWould you like to:\n1. Checkout\n2. Book a table in our restaurant\n3. Check in\nEnter any other number to quit.");
+    scanf("%d", &choice);
+
+    switch (choice) {
+        case 1:
+            checkOut();
+            break;
+        case 2:
+            bookTable();
+            break;
+        case 3:
+            checkIn();
+            break;
+        default:
+            break;
+    }
+}
+
+int main() {
+    mainMenu();
+    return 0; // Indicate successful program execution
 }
